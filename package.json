@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "",
   "main": "dist/index.js",
+  "keywords": ["typescript", "breadcrumbs"],
   "scripts": {
     "build": "npm run rimraf && tsc",
     "rimraf": "node -e \"require('fs').rmdirSync('dist', { recursive: true })\"",

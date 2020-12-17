@@ -21,4 +21,4 @@ export type Breadcrumbs = BreadcrumbsItem[]
 
 export type ToArray<T> = T extends Array<unknown> ? T : [T]
 
-export type BuildBreadcrumbs<T = []> = (...args: ToArray<T>) => Breadcrumbs 
+export type BreadcrumbsBuilder<T = []> = (...args: ToArray<T>) => Breadcrumbs
